@@ -1,7 +1,6 @@
 {
   "name": "apitest",
   "version": "1.0.0",
-  "type": "module",
   "description": "API de ensaio.",
   "main": "SimpleAPI.js",
   "scripts": {

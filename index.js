@@ -1,6 +1,6 @@
-import express from "express";
+const express = require("express");
 
-const serverPort = 80;
+const serverPort = 3000;
 
 const app = express(); // Objeto de servidor HTTP
 
