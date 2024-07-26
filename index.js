@@ -6,7 +6,10 @@ const app = express(); // Objeto de servidor HTTP
 
 app.get("/", (req, res) => {
   res.send('Sei de nada :P');
-  console.log('Requisição Recebida de: ' + req.originalUrl);
+});
+
+app.get("/manifest", (req, res) => {
+  res.send('Aqui é o manifesto po sai foras dkaskdaskfdaskrf');
 });
 
 app.listen(serverPort, () => {
